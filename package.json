@@ -11,7 +11,10 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "ws": "^8.17.1"
   },
   "engines": {
     "node": ">=14"
